@@ -8,7 +8,7 @@ const About = () => {
     { text: "Problems Solved", count: "50" }
   ];
   return (
-    <section id="about" className="py-10 text-white">
+    <section id="about" className="py-10 text-white bg-gray-800 ">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           About <span className="text-violet-400">Me</span>

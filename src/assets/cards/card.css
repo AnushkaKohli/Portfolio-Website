@@ -1,0 +1,23 @@
+.title {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.data {
+    display: flex;
+    column-gap: 4rem;
+}
+
+.name {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+}
+
+.level {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+    text-align: left;
+}
