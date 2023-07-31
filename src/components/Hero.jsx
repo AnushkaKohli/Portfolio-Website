@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../assets/images/hero.jpg';
+import hero from '../assets/images/me1.jpg';
 import { IoLogoLinkedin, IoLogoGithub, IoLogoTwitter } from 'react-icons/io5';
 import { SiDiscord, SiLeetcode } from 'react-icons/si';
 
@@ -29,7 +29,7 @@ const Hero = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-[#EDE4FF]">
             Fullstack Web Developer
           </h4>
-          <button type="button" className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-6 py-3 text-center mr-2 mb-2 mt-8">Contact Me</button>
+          {/* <button type="button" className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-6 py-3 text-center mr-2 mb-2 mt-8">Contact Me</button> */}
           <div className='mt-8 text-3xl flex items-center md:justify-start justify-center gap-5'>
               <a href='https://www.linkedin.com/in/anushka-kohli-9410771b8/' className="text-[#EDE4FF] hover:text-gray-500 cursor-pointer"> <IoLogoLinkedin /> </a> 
               <a href='https://github.com/AnushkaKohli' className="text-[#EDE4FF] hover:text-gray-500 cursor-pointer"> <IoLogoGithub /> </a>
